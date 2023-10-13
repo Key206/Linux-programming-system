@@ -36,7 +36,7 @@ move: libShared
 	sudo chmod 755 /usr/lib/libShared.so
 
 allSharedLib: move
-	gcc  $(OBJ_DIR)/main.o -L$(LIB_SHARED) -lShared -o $(BIN_DIR)/$(EXE_FILE_SHARED)
+	$(COMPILER)  $(OBJ_DIR)/main.o -L$(LIB_SHARED) -lShared -o $(BIN_DIR)/$(EXE_FILE_SHARED)
 
 clean:
 	rm -rf $(OBJ_DIR)/* $(LIB_STATIC)/libStatic.a $(LIB_SHARED)/libShared.so $(BIN_DIR)/*
