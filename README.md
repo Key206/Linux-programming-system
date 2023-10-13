@@ -1,5 +1,5 @@
 # linux-programming-system
 **This repo will show my learning in linux programming system. Besides, I will try to make this repo easy to understand by my explanation and easy to look at (inspired by my big brother - Mr. Thaonm)**
-## Table content
+## Table of contents
 1. Lec00 - Makefile (basic) 
 2. Lec01 - File system
