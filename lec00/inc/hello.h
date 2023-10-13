@@ -1,0 +1,3 @@
+
+void helloworld();
+void helloKhoa();
