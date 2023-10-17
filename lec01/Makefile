@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: main clean exeInfoFile exeAppendFile
 
 EXECUTE_FILE_OPEN := lec01_exe
 EXECUTE_FILE_INFO := infoFile_exe
@@ -20,4 +20,4 @@ exeAppendFile:
 	$(COMPILER) -o $(EXECUTE_FILE_APPEND) $(SRC_DIR)/flag_append.c
 	mv $(CUR_DIR)/$(EXECUTE_FILE_APPEND) $(BIN_DIR)
 clean:
-	rm -rf $(BIN_DIR)/$(EXECUTE_FILE_OPEN) *.txt
+	rm -rf $(BIN_DIR)/* *.txt
